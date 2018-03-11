@@ -1,0 +1,93 @@
+{
+  "conv1_1":{
+    "weights":[3,3,3,64],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "conv1_2":{
+    "weights":[3,3,64,64],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "pool1":{
+    "ksize":[1, 2, 2, 1],
+    "strides":[1, 2, 2, 1],
+    "padding":"SAME"
+  },
+  "conv2_1":{
+    "weights":[3,3,64,128],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "conv2_2":{
+    "weights":[3,3,128,128],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "pool2":{
+    "ksize":[1, 2, 2, 1],
+    "strides":[1, 2, 2, 1],
+    "padding":"SAME"
+  },
+  "conv3_1":{
+    "weights":[3,3,128,256],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "conv3_2":{
+    "weights":[3,3,256, 256],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "conv3_3":{
+    "weights":[3,3,256, 256],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "pool3":{
+    "ksize":[1, 2, 2, 1],
+    "strides":[1, 2, 2, 1],
+    "padding":"SAME"
+  },
+  "conv4_1":{
+    "weights":[3, 3, 256, 512],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "conv4_2":{
+    "weights":[3, 3, 512, 512],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "conv4_3":{
+    "weights":[3, 3, 512, 512],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "pool4":{
+    "ksize":[1, 2, 2, 1],
+    "strides":[1, 2, 2, 1],
+    "padding":"SAME"
+  },
+  "conv5_1":{
+    "weights":[3, 3, 512, 512],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "conv5_2":{
+    "weights":[3, 3, 512, 512],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "conv5_3":{
+    "weights":[3, 3, 512, 512],
+    "stride":[1, 1, 1, 1],
+    "pad":"SAME"
+  },
+  "pool5":{
+    "ksize":[1, 2, 2, 1],
+    "strides":[1, 2, 2, 1],
+    "padding":"SAME"
+  }
+}
+
