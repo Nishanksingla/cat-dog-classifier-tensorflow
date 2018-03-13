@@ -1,1 +1,3 @@
 dataset/
+vgg16_weights.npz
+.ipynb_checkpoints/
